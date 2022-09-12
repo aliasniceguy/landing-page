@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+.awesome {
+    font-size: 48px;
+}
+
+
+.button {
+    color: #3882F6;
+}
