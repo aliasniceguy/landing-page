@@ -33,10 +33,11 @@ img {
     text-align: center;
     justify-content: center;
     margin-top: -200px;
-    margin-right: auto;
-    height: 100px;
-    width: 200px;
+    margin-right: 100px;
+    height: 200px;
+    width: 300px;
     border: 10px solid grey;
+
 }
 
 
@@ -116,6 +117,7 @@ a {
 
 h4 {
     display: flex;
+    margin-top: 30px;
     flex-direction: row;
     justify-content: start;
     font-size: 20px;
@@ -134,6 +136,7 @@ x{
     color: #1F2937;
     background-color: grey;
     font-size: 36px;
+    justify-content: center;
     font-style: italic;
     padding: 50px;
     text-align: center;
@@ -148,28 +151,15 @@ p {
 
 .con2{
     display: flex;
-    flex: wrap;
-    font-size: small;
     justify-content: center;
     padding: 40px;
     background-color: #3882F6;
     border: 90px solid whitesmoke;
-    flex-wrap: wrap;
-}
-
-h5 {
-    display: flex;
-    font-size: 40px;
-    flex-wrap: nowrap;
-    justify-content: start;
-    font-size: large;
 }
 
 h6 {
     display: flex;
     font-size: 20px;
-    margin-top: 80px;
-    margin-left: -300px;
     flex: nowrap;
     text-align: bottom;
 }
@@ -179,8 +169,8 @@ h6 {
 button2 {
     display: flex;
     align-items: center;
-    padding: 20px;
-    border: 2px solid white;
+    padding: 50px;
+    border: 2px solid #e5e7eb;
     margin-top: 20px;
     margin-left: 500px;
 }
