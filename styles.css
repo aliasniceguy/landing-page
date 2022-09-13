@@ -159,9 +159,8 @@ p {
 
 h6 {
     display: flex;
-    font-size: 20px;
-    flex: nowrap;
-    text-align: bottom;
+    justify-content: center;
+    font-size: 30px;
 }
 
 
