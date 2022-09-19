@@ -1,23 +1,22 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #1F2937;
+    font-family: monospace;
+    background-color: #FEE715FF;
     text-align: center;
 }
 .header {
     display: flex;
     flex-direction: row;
     font-size: 18px;
-    color: #e5e7eb;
-    padding: 30px;
+    color: black;
     justify-content: space-between;
     align-items: center;
-    margin-right: 50px;
     margin-top: -20px;
 }
 
 h1 {
     display: flex;
     font-size: 59px;
+    justify-content: center;
 }
 
 
@@ -28,7 +27,6 @@ h2 {
 img {
 
     display: flex;
-    background-color: grey;
     float: right;
     text-align: center;
     justify-content: center;
@@ -36,16 +34,11 @@ img {
     margin-right: 100px;
     height: 300px;
     width: 400px;
-    border: 10px solid goldenrod;
+    border: 10px solid;
 
 }
 
 
-.con1 {
-    color: #e5e7eb;
-    margin-left: 50px;
-    
-}
 
 .title {
     display: flex;
@@ -55,7 +48,7 @@ img {
     white-space: pre;
     font-size: 48px;
     content: "\a";
-    color: #e5e7eb;
+    color: black;
 }
 
 span {
@@ -63,15 +56,13 @@ span {
     align-items: center;
 }
 
-.text {
-    background-color: #e5e7eb;
-}
+
 
 button {
     display: flex;
     justify-content: center;
     border: none;
-    background-color: goldenrod;
+    background-color: black;
     color:#f9faf8;
     font-size: 18px;
     border-radius: 25px;
@@ -87,7 +78,7 @@ h3 {
     display: flex;
     text-align: center;
     font-size: 36px;
-    color: #1F2937;
+    color: #FEE715FF;
     font-weight: bolder;
 
 }
@@ -96,12 +87,16 @@ h3 {
 .illustration {
     display: flex;
     align-items: center;
-    background-color: #e5e7eb;
+    background-color: black;
     justify-content: center;
     margin-top: 200px;
-    content: "\div";
     white-space: pre;
     padding: 50px;
+}
+
+.text {
+    background-color: black;
+    color: #FEE715FF;
 }
 
 a {
@@ -109,9 +104,8 @@ a {
     width: 15%;
     height: 100%;
     text-align: center;
-    background-color: #e5e7eb;
     margin-bottom: 100px;
-    border: 5px solid black;
+    border: 5px solid #FEE715FF;
     padding: 20px;
 }
 
@@ -134,7 +128,6 @@ x{
 .quote{ 
     display: flex;
     color: #1F2937;
-    background-color: grey;
     font-size: 36px;
     justify-content: center;
     font-style: italic;
@@ -153,23 +146,26 @@ p {
     display: flex;
     justify-content: center;
     padding: 40px;
-    background-color: goldenrod;
-    border: 90px solid whitesmoke;
+    background-color: black;
 }
 
 h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     font-size: 30px;
+    color: #FEE715FF;
 }
 
 
 
 button2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     align-items: center;
+    color: #FEE715FF;
     padding: 50px;
-    border: 2px solid black;
+    border: 2px solid #FEE715FF;
     margin-top: 20px;
     margin-left: 500px;
 }
@@ -181,8 +177,7 @@ footer {
     margin-bottom: 50px;
     font-size: 18px;
     padding: 20px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
-    background-color: #1F2937;
 }
